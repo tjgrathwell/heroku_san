@@ -7,6 +7,7 @@ Feature: github issues
 
 #  https://github.com/fastestforward/heroku_san/issues/113
 #  https://github.com/fastestforward/heroku_san/issues/117
+  @deploys
   Scenario: Deploying to an annotated tag fails with 'error: Trying to write non-commit object'
     Given I have a new Rails project
     When I am in the project directory

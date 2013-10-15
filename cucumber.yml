@@ -1,4 +1,4 @@
 default: --tags ~@slow_process --no-source
 remote: --tags @slow_process --tags ~@issue --no-source
 issues: --tags @issue --no-source
-ci: --no-source
+ci: --no-source --tags ~@deploys
