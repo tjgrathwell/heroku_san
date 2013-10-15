@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gemspec
 
 group :development do
-  gem 'rails', '>= 2'
+  gem 'rails', '>= 3'
   gem 'rspec'
   gem 'aruba'
   gem 'cucumber'
