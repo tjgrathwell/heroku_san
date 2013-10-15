@@ -9,6 +9,7 @@ Feature: heroku_san can control a project on Heroku
     Given I have a new Rails project
     When I am in the project directory
     And I add heroku_san to the rails Gemfile
+    And I run bundle install
     Then rake reports that the heroku: tasks are available
 
   @deploys
