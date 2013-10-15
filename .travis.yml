@@ -1,6 +1,10 @@
 language: ruby
 rvm:
-  - 1.9.2
-  - 1.9.3
-  - 2.0.0
-script: "script/ci/run_build.sh"
+- 1.9.2
+- 1.9.3
+- 2.0.0
+script: script/ci/run_build.sh
+env:
+  global:
+  - secure: HZzYf3j+9SJi8PKuzgSaJ4VES4UhpmRL+2G0i7GLL2m3CzSL/g8xSy2a+YEfyaU1mIi507en48tU4v/EuU8tCnd4ozHIlL330/38YNVpLx9mBXiEy5/qAOUnxQ9IpKQTDfHpLT0ToIqMy6g8qHWtEIrGOmTNo/mT7HabB5AUkL4=
+  - secure: FriJoeHJlUMTDuci1YOHWdbvEghAXToWCs/LAl8AEI9vgjngGEPUChF/3UnT9ZSFoEyX/8EXyUT0UFfNjx2KFo8rLmbZaR9lI2fCXMiuJH34A3loS5Xa2BkZWo2OoprYndwjf7Y6OiEugIk47u9S83msQK+wbGD+/6+qED/KoZw=
